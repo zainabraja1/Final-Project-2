@@ -140,6 +140,5 @@ async def shutdown(context):
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 client.run(TOKEN)
-#MTE4Mjc1NjM0OTk2OTQ0NDk0Nw.GhoNmQ.JBRbsZ9XdIB-S6T5iWm0iWDneRwyu97vi-90xE
 
 # This bot uses OpenAI's GPT3.5, responding to commands like asking questions, greeting, giving random facts, and saying bye. There were environemnt variables for API keys and Discord keys in a separate .env file. Simply just put "!ask" (or any of the other commands) and then ask a question to the bot on discord and then you will get a reponse.  
